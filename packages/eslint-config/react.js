@@ -35,8 +35,12 @@ module.exports = {
   // add rules configurations here
   rules: {
     'import/no-default-export': 'off',
-    '@typescript-eslint/no-shadow': 'off',
     'unicorn/filename-case': 'off',
+    '@typescript-eslint/no-shadow': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/require-await': 'off',
+    '@typescript-eslint/no-empty-interface': 'off',
+
+    'react/function-component-definition': 'off',
   },
 }
