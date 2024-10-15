@@ -40,6 +40,7 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/require-await': 'off',
     '@typescript-eslint/no-empty-interface': 'off',
+    '@typescript-eslint/no-misused-promises': 'off',
 
     'react/function-component-definition': 'off',
   },
